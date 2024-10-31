@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mastering Retrieval-Augmented Generation: Unlocking Advanced Retrieval Techniques</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -18,16 +19,17 @@
         <p>
             In this tutorial, we explore the critical role of Retrieval-Augmented Language Models (RALMs) in enhancing large language model's knowledge retrieval capabilities.  <br><br>
             Starting with an overview of their importance, we’ll trace the evolution of core retrieval techniques from 2014 to present, covering milestones including word2vec, S-BERT, ICT, DPR, REALM, ColBERT, GAR, HyDE, and LLM Embeddings.  <br><br>
-            Participants will gain a foundational understanding of how each method contributed to retrieval advancements and acquire practical insights into leveraging these techniques to improve model efficiency and precision in real-world applications.<br></p>
+            Participants will gain a foundational understanding of how each method contributed to retrieval advancements and acquire practical insights into leveraging these techniques to improve model efficiency and precision in real-world applications.
+        </p>
     </section>
 
     <section id="schedule">
         <h2>Schedule</h2>
         <ul>
-            <li><strong>9:00 - 10:30 AM:</strong> Introduction and Overview</li>
-            <li><strong>10:45 - 12:00 PM:</strong> Architectures and Training Methods</li>
-            <li><strong>1:30 - 3:00 PM:</strong> Applications in Industry</li>
-            <li><strong>3:15 - 4:30 PM:</strong> Open Questions and Future Directions</li>
+            <li><strong>15:50 - 16:20 :</strong> Introduction and Overview</li>
+            <li><strong>16:20 - 16:50 :</strong> Pre-training retriever</li>
+            <li><strong>16:50 - 17:15 :</strong> Optimization BERT-style retriever</li>
+            <li><strong>17:15 - 17:20 :</strong> Retrieval improvement after LLM</li>
         </ul>
     </section>
 
@@ -35,22 +37,63 @@
         <h2>Reading List</h2>
         <p>We encourage participants to go through the following readings before attending the tutorial:</p>
         <ul>
-            <li><a href="#">Paper 1: Introduction to Retrieval-based Models</a></li>
-            <li><a href="#">Paper 2: Advances in Retrieval Techniques</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/1906.00300">Latent Retrieval for Weakly Supervised Open Domain Question Answering</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2002.08909">REALM: Retrieval-Augmented Language Model Pre-Training</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2004.04906">Dense Passage Retrieval for Open-Domain Question Answering</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2104.08253">Condenser: a Pre-training Architecture for Dense Retrieval</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2004.12832">ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2102.07033">PAQ 65 Million Probably-Asked Questions and What You Can Do With Them</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2009.08553">Generation-Augmented Retrieval for Open-Domain Question Answering</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2212.10496">Precise Zero-Shot Dense Retrieval without Relevance Labels</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2305.14283">Query Rewriting for Retrieval-Augmented Large Language Models</a></li>
+            <li>Paper: <a href="https://arxiv.org/abs/2401.00368">Improving Text Embeddings with Large Language Models</a></li>
         </ul>
     </section>
 
     <section id="presenters">
         <h2>Presenters</h2>
-        <ul>
-            <li><strong>Dr. Jane Doe</strong> - Expert in NLP and Machine Learning</li>
-            <li><strong>Dr. John Smith</strong> - Researcher in Retrieval-based Technologies</li>
-        </ul>
+        <div class="avatar-container">
+            <div class="avatar">
+                <img src="fan.jpg" alt=" Yao-Chung Fan">
+                <p><strong>Yao-Chung Fan</strong></p>
+                <div class="social-icons">
+                    <!-- <a href="" target="_blank"><i class="fab fa-github"></i></a> -->
+                    <!-- <a href="" target="_blank"><i class="fab fa-linkedin"></i></a> -->
+                    <a href="https://yfan.nlpnchu.org/" target="_blank"><i class="fas fa-home"></i></a>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="ssw.jpg" alt="Sin-Syuan Wu">
+                <p><strong>Sin-Syuan Wu</strong></p>
+                <div class="social-icons">
+                    <!-- <a href="" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="" target="_blank"><i class="fas fa-home"></i></a> -->
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="wang.jpg" alt="Yen-Hsiang Wang">
+                <p><strong>Yen-Hsiang Wang</strong></p>
+                <div class="social-icons">
+                    <a href="https://github.com/kenny75557" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/heliart/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://heliart.me/" target="_blank"><i class="fas fa-home"></i></a>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="wei.jpg" alt="Che-Wei Chang">
+                <p><strong>Che-Wei Chang</strong></p>
+                <div class="social-icons">
+                    <a href="https://github.com/allen3325" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/allen-chang-baomovie" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://allen3325.github.io/" target="_blank"><i class="fas fa-home"></i></a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>For more information, please contact <a href="mailto:info@acl2023-tutorial.com">info@acl2023-tutorial.com</a></p>
-        <p>Website template inspired by <a href="https://acl2023-retrieval-lm.github.io/">ACL 2023 Tutorial</a>.</p>
+        <p>For more information, please refer to our laboratory website <a href="https://nlpnchu.org/">National Chung Hsing University - Natural Language Processing Lab</a></p>
     </footer>
 </body>
 </html>
